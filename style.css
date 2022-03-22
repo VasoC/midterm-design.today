@@ -17,6 +17,7 @@ header {
   max-width: 319px;
   width: 20%;
   padding-left: 70px;
+  /* position:fixed */
 }
 .design-section {
   padding-left: 50px;
@@ -90,6 +91,7 @@ header {
 }
 .card {
   display: flex;
+  flex-wrap: wrap;
   max-width: 1200px;
   width: 78%;
   display: flex;
@@ -103,4 +105,27 @@ header {
   max-width: 289px;
   color: #222222;
   size: 18px;
+}
+.topdesigners {
+  display: flex;
+  max-width: 1200px;
+  width: 78%;
+  position: absolute;
+  float: right;
+  top: 1923px;
+  right: 32px;
+  flex-wrap: wrap;
+}
+.top {
+  display: flex;
+  max-width: 1200px;
+  width: 78%;
+  position: absolute;
+  float: right;
+  top: 1845px;
+  right: 32px;
+  flex-wrap: wrap;
+}
+.topdesigners {
+  background-color: #fafafa;
 }
