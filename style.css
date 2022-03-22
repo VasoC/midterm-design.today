@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+  }
+  .sidebar {
+    display: flex;
+  }
+  .nav-link {
+    color: #ffffff;
+  }
+  .vertical-navbar {
+    background-color: #222222;
+    max-width: 319px;
+    width: 20%;
+    padding-left: 70px;
+  }
+  .design-section {
+    padding-left: 50px;
+  }
+  .pics {
+    padding-right: 30px;
+  }
+  .flex-column {
+    margin-top: 75px;
+  }
+  .twopics {
+    margin-top: 42px;
+  }
+  .flex-column img {
+    padding-right: 15px;
+  }
+  .flex-column a {
+    margin-bottom: 40px;
+  }
+  .following h3 {
+    width: 70px;
+    height: 16px;
+    margin-bottom: 1px;
+    color: #ffffff;
+  }
+  .flexcolumn a {
+    margin-bottom: 10px;
+  }
+  .loadmore {
+    width: 150px;
+    height: 22px;
+  }
+  .loadmore a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .main {
+    max-width: 1200px;
+    width: 78%;
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  .upploadbtn {
+    width: 129px;
+    height: 56px;
+    background-color: #ff2288;
+    border-radius: 12px;
+  }
+  .upploadbtn a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contentbtn {
+    max-width: 1200px;
+    width: 78%;
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .filter{
+    padding-left: 95px;
+  }
